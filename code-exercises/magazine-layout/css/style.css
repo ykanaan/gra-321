@@ -1,0 +1,141 @@
+
+@media screen and (max-width: 1000px) {
+  body {
+    background-color: white;
+}
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color: white;
+}
+}
+
+
+body {
+  padding-left: 76px;
+  padding-right: 49px;
+  padding-bottom: 103px;
+  padding-top: 53px;
+}
+
+h1 {
+  font-family: 'Arial', sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 39px;
+  color: #000;
+  line-height: 47px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Arial', sans-serif;
+  font-weight: normal;
+  font-size: 35px;
+  color: #000;
+  letter-spacing: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  height: 47px;
+  margin: 0;
+  margin-top: 64px;
+}
+
+p {
+   font-family: 'Arial',sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  color: #000;
+  line-height: 25px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  margin: 0;
+  margin-top: 5px;
+}
+
+.top {
+  width: 1315px;
+  display: grid;
+  grid-template-columns: 470px 765px;
+  grid-column-gap: 35px;
+  height: 706px;
+  margin-left: 76px;
+}
+
+div.bjimage {
+  content: url(../img/bon-jovi.png);
+  width:817px;
+  height:720px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+
+.bottom {
+  width: 1305px;
+  height: 1015px;
+  display: grid;
+  grid-template-columns: 750px 522px;
+  grid-column-gap: 42px;
+  margin-top: 50px;
+}
+
+
+div.pimage {
+  background-image: url(../img/patricia-urquiola.png);
+  width:762px;
+  height:1022px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+
+
+
+
+.ptext {
+  font-family: 'Arial',sans-serif;
+  font-weight: lighter;
+  font-size: 17px;
+  color: #fff;
+  line-height: 25px;
+  letter-spacing: 2px;
+  text-align: left;
+  bottom: 0;
+  left: 45px;
+  position: absolute;
+}
+
+.container {
+
+background-image: url(../img/pic_0084.jpg);
+  background-size: cover;
+  height:817px;
+  margin: 0 auto;
+  width:600px;
+
+}
+
+
+ .d{
+  background-image: url(../img/desktop1.png);
+
+  width:1440px;
+  height:1972px;
+  background-repeat: no-repeat;
+}
+.d2{
+ background-image: url(../img/desktop2.png);
+
+ width:320px;
+ height:1753px;
+ background-repeat: no-repeat;
+}
+
+
+body {
+  background-color:white;
+}
